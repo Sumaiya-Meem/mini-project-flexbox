@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background: rgba(122, 165, 37, 0.925);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+header a{
+    color:white;
+    font-size: 1rem;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+.logo a{
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.logo span{
+    color: lightsalmon;
+    font-size: 1.3rem;
+    
+    
+}
+#menu li{padding: 10px;  }
+#menu a{font-size: 1.3rem;
+   
+    transition: .3s;}
+#menu a:hover{
+    color:lightgreen;
+    transform:scale(1.1);
+    cursor: pointer;
+}
+#social-link li{
+    padding: 10px;
+}
+#social-link a{
+    margin-right: 20px;
+    font-size: 1.3rem;
+    transition: .4s;
+}
+#social-link a:hover{
+    color:aquamarine;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#main{
+    display: flex;
+}
+aside{
+    flex: 0 0 20vw;
+    background: beige;
+    padding: 10px;
+}
+aside ul{list-style: none;padding: 0;}
+aside a{color:rgba(150, 202, 45, 0.987);
+    border-bottom: 1px dotted gray;
+    padding: 10px;
+    display: block;
+}
+aside img{width: 100%;}
+article{
+    padding: 10px;
+}
+.services-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.service-box{
+    border: 1px solid rgba(0,0,0,0.3);
+    flex-basis: 32%;
+    max-width: 320px;
+    margin-bottom: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.service-box img{
+    width: 100%;
+}
+.service-box h4{
+    margin: 5px 0 10px;
+    font-size: 1.1rem;
+}
+.service-box p{
+    margin: 5px 0 20px;
+    color:rgba(0,0,0, 0.7);
+}
+ .service-link{
+    align-self: flex-start;
+    margin-top: auto;
+ } 
+ .service-link a{
+     background: rgb(90, 131, 9);
+     border: 2px solid transparent;
+     color: #fff;
+     padding: 8px 13px;
+     border-radius: 6%;
+     display: block;
+}
+.service-link a:hover{
+    background: gray;
+    border: 2px solid gray ;
+    color:rgb(156, 228, 12);
+}
+footer{
+    background:  rgba(122, 165, 37, 0.925);
+    color:#fff;
+    padding: 15px;
+    font-size: 1.4rem;
+    text-align: center;
+    font-style: italic;
+}
+footer span{
+    color:lightsalmon;
+}
